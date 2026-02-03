@@ -8,7 +8,7 @@ class Graph:
         if v not in self.graph:
             self.graph[v] = []
 
-        self.graph[u].appned(v)
+        self.graph[u].append(v)
         self.graph[v].append(u)
 
     def display(self):
@@ -22,3 +22,5 @@ g.add_edge(1, 3)
 g.add_edge(2, 4)
 g.add_edge(3, 4)
         
+
+g.display()
